@@ -8,7 +8,8 @@
     "build": "tsc",
     "watch": "tsc -w",
     "test": "jest",
-    "cdk": "cdk"
+    "cdk": "cdk --profile t104fk",
+    "deploy": "cdk deploy --profile t104fk"
   },
   "devDependencies": {
     "@types/jest": "^27.5.2",
